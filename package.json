@@ -1,0 +1,31 @@
+{
+  "name": "@tummycrypt/acuity-admin-skills",
+  "version": "1.0.0",
+  "description": "Claude Code automation skills for Acuity Scheduling admin panel",
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest",
+    "test:unit": "vitest run",
+    "checkout": "tsx scripts/run-checkout.ts",
+    "explore": "tsx scripts/explore-admin.ts",
+    "export-clients": "tsx scripts/export-clients.ts",
+    "report": "tsx scripts/generate-report.ts",
+    "spot-check": "tsx scripts/spot-check.ts"
+  },
+  "dependencies": {
+    "@puppeteer/browsers": "^2.10.5",
+    "puppeteer-core": "^24.9.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.0.0",
+    "typescript": "^5.9.0",
+    "vitest": "^4.0.0"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}

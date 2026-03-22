@@ -1,0 +1,22 @@
+node_modules/
+dist/
+*.js
+*.d.ts
+*.js.map
+
+# Secrets
+.env
+.env.*
+.acuity-cookies.json
+*.cookies.json
+
+# Screenshots (contain PII)
+screenshots/
+*.png
+
+# Exploration results (may contain client data)
+exploration-results/
+
+# OS
+.DS_Store
+Thumbs.db
