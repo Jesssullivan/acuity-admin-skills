@@ -53,6 +53,14 @@ export const launchBrowser = async (
       '--disable-setuid-sandbox',
       '--disable-dev-shm-usage',
       '--disable-gpu',
+      // CRITICAL: Prevent Chrome's "Choose a profile" picker on macOS.
+      // Without these, Chrome opens a profile chooser window instead of
+      // the page Puppeteer expects, breaking all page navigation.
+      '--no-first-run',
+      '--no-default-browser-check',
+      '--disable-features=ChromeProfilePicker',
+      '--disable-infobars',
+      '--disable-session-crashed-bubble',
     ],
   });
 

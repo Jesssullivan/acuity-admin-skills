@@ -17,7 +17,18 @@ npx tsx scripts/explore-admin.ts       # DOM explorer
 npx tsx scripts/export-clients.ts      # Client export
 ```
 
-**Execution host**: xoxd-bates (Mac with Chrome). NOT Yoga.
+**Execution hosts**: Neo (MacBook, primary) or xoxd-bates (Rocky Linux). Requires Chrome/Chromium.
+
+## Chrome Profile Picker Warning
+
+Chrome's default behavior on macOS is to open a "Choose a profile" window on launch. This **breaks Puppeteer** because the script expects to control the first page, not a profile chooser.
+
+The browser.ts launch args include `--disable-features=ChromeProfilePicker`, `--no-first-run`, and `--disable-infobars` to prevent this. If Chrome still opens a profile picker:
+
+1. **Do NOT create a new profile** — close the picker
+2. Ensure `--disable-features=ChromeProfilePicker` is in the launch args
+3. If still failing, try: `--profile-directory=Default` to force the default profile
+4. As a last resort, launch Chrome manually with `--disable-features=ChromeProfilePicker` once to set the preference
 
 ## Cookie Authentication
 
