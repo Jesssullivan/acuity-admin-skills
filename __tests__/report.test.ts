@@ -4,8 +4,8 @@
  */
 
 import { describe, it, expect } from 'vitest';
-import { generateUnpaidReport, toCSV, toJSON } from '../report.js';
-import type { AppointmentRecord, AppointmentFilter } from '../types.js';
+import { generateUnpaidReport, toCSV, toJSON } from '../src/report.js';
+import type { AppointmentRecord, AppointmentFilter } from '../src/types.js';
 
 // ---------------------------------------------------------------------------
 // Test fixtures

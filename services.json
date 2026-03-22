@@ -1,0 +1,70 @@
+{
+  "$schema": "./services.schema.json",
+  "description": "Target prices for Acuity appointment types. Run 'just prices' to preview changes.",
+  "lastUpdated": "2026-03-22",
+  "services": [
+    {
+      "name": "Urgent Care Pain Relief Massage",
+      "category": "Urgent Care",
+      "duration": 45,
+      "oldPrice": 150,
+      "newPrice": 155,
+      "acuityId": null,
+      "notes": "+$5 increase per Jen's March 2026 request"
+    },
+    {
+      "name": "Therapeutic Massage",
+      "category": "Therapeutic",
+      "duration": 45,
+      "oldPrice": 100,
+      "newPrice": 105,
+      "acuityId": null,
+      "notes": "+$5 increase"
+    },
+    {
+      "name": "TMD 1st Visit/Consultation",
+      "category": "TMD",
+      "duration": 30,
+      "oldPrice": 150,
+      "newPrice": 155,
+      "acuityId": null,
+      "notes": "+$5 increase"
+    },
+    {
+      "name": "TMD Single Session (30 min)",
+      "category": "TMD",
+      "duration": 30,
+      "oldPrice": 100,
+      "newPrice": 105,
+      "acuityId": null,
+      "notes": "+$5 increase"
+    },
+    {
+      "name": "TMD Double Session (60 min)",
+      "category": "TMD",
+      "duration": 60,
+      "oldPrice": 200,
+      "newPrice": 205,
+      "acuityId": null,
+      "notes": "+$5 increase"
+    },
+    {
+      "name": "Cervical Medical Massage (30 min)",
+      "category": "Cervical",
+      "duration": 30,
+      "oldPrice": 75,
+      "newPrice": 80,
+      "acuityId": null,
+      "notes": "+$5 increase"
+    },
+    {
+      "name": "Cervical Medical Massage (60 min)",
+      "category": "Cervical",
+      "duration": 60,
+      "oldPrice": 150,
+      "newPrice": 155,
+      "acuityId": null,
+      "notes": "+$5 increase"
+    }
+  ]
+}
