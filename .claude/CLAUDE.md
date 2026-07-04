@@ -17,7 +17,7 @@ npx tsx scripts/explore-admin.ts       # DOM explorer
 npx tsx scripts/export-clients.ts      # Client export
 ```
 
-**Execution hosts**: Neo (MacBook, primary) or xoxd-bates (Rocky Linux). Requires Chrome/Chromium.
+**Execution hosts**: Neo (MacBook, primary) or a Tinyland fleet runner as fallback (`xoxd-bates` was decommissioned 2026-06-23 and is no longer a valid target). Requires Chrome/Chromium.
 
 ## Chrome Profile Picker Warning
 
