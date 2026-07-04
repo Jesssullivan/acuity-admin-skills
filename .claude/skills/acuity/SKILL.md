@@ -1,6 +1,6 @@
 ---
 name: acuity
-description: Drive the Acuity Scheduling admin panel (Massage Ithaca) via Puppeteer: scan/mark unpaid appointments, batch checkout, update prices, export clients. Dry-run default; hits production.
+description: "Drive the Acuity Scheduling admin panel (Massage Ithaca) via Puppeteer: scan/mark unpaid appointments, batch checkout, update prices, export clients. Dry-run default; hits production."
 ---
 
 # Acuity Admin Panel Automation

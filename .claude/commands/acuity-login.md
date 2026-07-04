@@ -11,7 +11,7 @@ Authenticate to the Acuity Scheduling admin panel at https://secure.acuityschedu
 
 **Requirements:**
 - `CHROME_PATH` env var pointing to Chrome/Chromium executable
-- Run on xoxd-bates (Mac with Chrome installed)
+- Run on the current execution host per `.claude/CLAUDE.md` (Neo primary; Chrome installed)
 
 **Steps:**
 1. Check for `.acuity-cookies.json` — report age and cookie count
