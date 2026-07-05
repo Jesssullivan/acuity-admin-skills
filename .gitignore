@@ -17,6 +17,11 @@ screenshots/
 # Exploration results (may contain client data)
 exploration-results/
 
+# Client exports / run reports (contain client PII)
+acuity-clients.json
+*-clients.json
+unpaid-report.json
+
 # OS
 .DS_Store
 Thumbs.db
